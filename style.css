@@ -1,6 +1,6 @@
 body
 {
-	background-color: black;
+	background-color: #FDF3E7;
 }
 
 main
@@ -13,20 +13,13 @@ main
 
 .nav-link
 {
-	color: white;
+	color: brown;
 	font-size: 1.3rem;
 }
 
 .nav-link:hover
 {
-	color: yellow;
-}
-
-.nav-link:focus
-{
-	color: yellow;
-	text-decoration: underline;
-
+	color: #A1C935;
 }
 
 .navbar-toggler
@@ -41,7 +34,7 @@ section
 
 h1,h2, h3
 {
-	color: white;
+	color: brown;
 }
 
 h3
@@ -49,7 +42,7 @@ h3
 	text-align: center;
 }
 
-#company_introduction, #company_overview
+#company_introduction
 {
 	display: flex;
 	flex-direction: column;
@@ -59,7 +52,7 @@ h3
 
 #company_introduction p, #company_overview p
 {
-	color: #A1C935;
+	color: brown;
 	width: 50%;
 	min-width: 300px;
 	font-size: 1.3rem;
@@ -68,21 +61,7 @@ h3
 
 strong
 {
-	color: yellow;
-}
-
-li
-{
-	color: #A1C935;
-	font-size: 1.3rem;
-
-}
-
-#company_overview
-{
-	border: solid yellow 1px;
-	border-radius: 10px;
-	padding: 10px;
+	color: brown;
 }
 
 @keyframes borderColorAnimation {
@@ -150,14 +129,12 @@ li
 	justify-content: center;
 
 	margin-left: 10px;
-	border: solid transparent 5px;
+	border: solid brown 3px;
 	border-radius: 10px;
 
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center center;
-
-	animation: borderColorAnimation 3s linear infinite;
 }
 
 .category:hover
@@ -184,6 +161,8 @@ li
 	padding-bottom: 10px;
 
 	background-image: url('images/drones.jpg');
+	border: solid transparent 5px;
+	animation: borderColorAnimation 3s linear infinite;
 }
 
 #used_automobile
@@ -274,6 +253,11 @@ li
 	width: 500px;
 }
 
+#carousel_company_services span
+{
+	background-color: brown;
+}
+
 .company_service
 {
 	display: flex;
@@ -286,7 +270,7 @@ li
 .company_service p
 {
 	text-align: justify;
-	color: white;
+	color: brown;
 	width: 300px;
 	align-self: center;
 	font-size: 1.1rem;
@@ -311,6 +295,7 @@ li
 	text-align: center;
 	padding: 10px;
 	text-decoration: none;
+	background-color: black;
 	font-weight: bold;
 	border: solid #A1C935 1px;
 	border-radius: 10px;
@@ -324,14 +309,19 @@ li
 i, span
 {
 	padding: 5px;
-	color: white;
+	color: brown;
 }
 
 footer
 {
 	margin-top: 100px;
 }
-footer h2
+footer h2, footer p
 {
 	color: #A1C935;
+}
+
+footer p
+{
+	font-size: 1.3rem;
 }
