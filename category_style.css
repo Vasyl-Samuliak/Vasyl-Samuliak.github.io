@@ -1,0 +1,33 @@
+.cafe
+{
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+
+	border: solid yellow 1px;
+	border-radius: 10px;
+	margin-top: 10px;
+}
+
+.cafe_name
+{
+	color: #A1C935;
+}
+
+p
+{
+	color: white;
+}
+
+.cafe a
+{
+	background-color: black;
+	color: #A1C935;
+	text-align: center;
+	padding: 10px;
+	text-decoration: none;
+	font-weight: bold;
+	align-self: flex-end;
+	border-radius: 10px;
+	border: solid yellow; 1px;
+}
