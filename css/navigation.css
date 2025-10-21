@@ -1,0 +1,23 @@
+body
+{
+	background-color: #E6F5D7;
+}
+
+#logo
+{
+	height: 120px;
+	width: 150px;
+}
+
+ul.navbar-nav
+{
+	display: flex;
+	align-items: flex-end;
+}
+
+li.nav-item:hover
+{
+	border: solid black 1px;
+	border-radius: 10px;
+	padding: 3px;
+}

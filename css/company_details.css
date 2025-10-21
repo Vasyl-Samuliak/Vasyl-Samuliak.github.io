@@ -1,0 +1,29 @@
+.card
+{
+	color: #004B2D;
+	background-color: #C7E6A3; 
+	border-radius: 10px;
+}
+
+.card-text
+{
+	text-align: justify;
+}
+
+#send_message_btn
+{
+	border: solid black 3px;
+	border-radius: 10px;
+}
+
+#send_message_btn:hover
+{
+	background-color: #C7E6A3;
+	color: white;
+}
+
+footer
+{
+	background-color: #004B2D; 
+	color: white;
+}
