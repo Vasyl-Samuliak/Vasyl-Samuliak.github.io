@@ -1,7 +1,7 @@
 .card
 {
 	color: #004B2D;
-	background-color: #C7E6A3; 
+	background-color: #D2ECB7; 
 	border-radius: 10px;
 }
 
@@ -12,13 +12,12 @@
 
 #send_message_btn
 {
-	border: solid black 3px;
-	border-radius: 10px;
+	background-color: #C7E6A3;
+	color: #004B2D;
 }
 
 #send_message_btn:hover
 {
-	background-color: #C7E6A3;
 	color: white;
 }
 

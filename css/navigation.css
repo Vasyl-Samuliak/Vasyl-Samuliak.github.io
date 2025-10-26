@@ -6,7 +6,7 @@ body
 #logo
 {
 	height: 120px;
-	width: 150px;
+	width: 250px;
 }
 
 ul.navbar-nav
@@ -15,9 +15,10 @@ ul.navbar-nav
 	align-items: flex-end;
 }
 
-li.nav-item:hover
+.nav-link:hover
 {
+	color: white;
 	border: solid black 1px;
 	border-radius: 10px;
-	padding: 3px;
+	background-color: #004B2D;
 }
